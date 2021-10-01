@@ -9,4 +9,4 @@ RUN npm i
 COPY . /usr/src/app/
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "node", "app.js" ]
